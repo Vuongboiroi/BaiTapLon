@@ -1,0 +1,183 @@
+.laveria-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+   
+}
+.laveria-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 183px;
+}
+.laveria-column img{
+    width: 340px;
+    border-radius: 4px;
+}
+.laveri-img{
+    /* width: 350px; */
+    /* height: 368px; */
+    position: relative;
+}
+.toi{
+    position: absolute;
+    width: 340px;
+    height: 98.9%;
+    background-color: #161616;
+    top: 0;
+    border-radius: 4px;
+    opacity: 0.3;
+}
+.laveria-img{
+    position: relative;
+}
+.to{
+    position: absolute;
+    width: 340px;
+    height: 98.9%;
+    background-color: #161616;
+    top: 0;
+    z-index: 1;
+    border-radius: 4px;
+    opacity: 0;
+}
+.zoom{
+    background-color: #fc5b62;
+    position: absolute;
+    z-index: 5;
+    top: 40%;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    opacity: 0;
+    cursor: zoom-in;
+    
+}
+.laveria-img:hover i{
+    display: inline;
+}
+.laveria-img:hover .to{
+    transition: 0.4s;
+    opacity: 0.7;
+}
+.laveria-img:hover .zoom{
+    transition: 0.4s;
+    opacity: 1;
+}
+.zoom *{
+    pointer-events: none;
+}
+.zoom i{
+    display: none;
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 100;
+
+    
+}
+.text span{
+    width: 8px;
+    height: 8px;
+    border-radius: 100rem;
+    display: inline-block;
+    background-color: #fc5c65;
+}
+.laveria-text{
+    color: #ffffff;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+    z-index: 5;
+    width: 98%;
+    height: 116px;
+    text-align: left;
+    line-height: 28px;
+}
+.star{
+    color: #fec42d;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.icofont-location-pin{
+    font-size: 18px;
+
+}
+.text-service{
+    text-align: center;
+    color: #404040;
+    padding-bottom: 60px;
+    line-height: 1.25;
+    padding-top: 100px;
+} 
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lightbox-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+.lightbox-content img {
+    max-height: 700px;
+    width: 1000px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 50px;
+}
+.lightbox-content i {
+    font-size: 60px;
+    cursor: pointer;
+    flex-shrink: 0;
+    color: #b0acac;
+}
+.lightbox-prev:hover,
+.lightbox-next:hover{
+    color: white;
+    transition: 0.2s;
+
+}
+@media screen and (max-width: 767px) {
+.laveria-list{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 110px;
+}
+.zoom{
+    left: 43%;
+}
+.lightbox-content img {
+    max-height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+   
+}
+.laveria-column img{
+    width: 480px;
+}
+.to{
+    width: 480px;
+}
+.toi{
+    width: 480px;
+}
+}
