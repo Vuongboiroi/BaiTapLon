@@ -1,0 +1,160 @@
+#container{
+    display: flex;
+    padding: 80px 160px 80px 160px;
+    background-color: rgb(250, 250, 250);
+}
+#left{
+    padding: 0 15px 0 15px;
+    width: 760px;
+    height: 1762px;
+}
+#right{
+    padding: 0 15px 0 15px;
+    width: 760px;
+    height: 1762px;
+}
+.img img{
+    width: 730px;
+    height: 486px;
+}
+#icon{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-text{
+    padding: 20px 30px 30px 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0 20px 0;
+}
+#right{
+    width: 380px;
+    height: 1762px;
+}
+#search{
+    background-color:#F1F8FF ;
+    padding: 30px;
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+input{
+    height: 55px;
+    width: 250px;
+    position: relative;
+    padding: 15px;
+}
+#button-search{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    border-radius: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 14px 0px 14px 0px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 30px 14px 30px;
+    border-bottom: 1px solid #ddd;
+}
+#categories li:hover {
+    background-color: #fc5b62;
+    color: #ffffff;
+}
+#categories{
+    background-color: #F1F8FF;
+    position: relative;
+}
+#categories h3::after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: 370px;
+    background-color: #fc5b62;
+    width: 56px;
+    height: 3px;
+}
+#categories h3{
+    padding: 30px 30px 0 30px;
+}
+.post-date{
+    width: 1000px;
+}
+#recent-post{
+    background-color: #F1F8FF;
+    position: relative;
+}
+#recent-post h3::after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: 410px;
+    background-color: #fc5b62;
+    width: 56px;
+    height: 3px;
+}
+#recent-post h3{
+    margin: 30px 30px 12px 30px;
+    padding-bottom: 8px;
+    padding-top: 30px;
+}
+#tags{
+    width: 350px;
+    height: 261px;
+    background-color: #F1F8FF;
+    padding: 0 30px 30px 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+#tags a {
+    padding: 2px 13px;
+    margin-right: 10px;
+    margin-bottom: 12px ;
+    background-color:#fff;
+}
+#tags a:hover {
+    color: #fff;
+    background-color: #fc5b62;
+    border-color: #fc5b62;
+}
+#tags h3::after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: 210px;
+    background-color: #fc5b62;
+    width: 56px;
+    height: 3px;
+}
+#tags h3{
+    margin: 30px 30px 12px 1px;
+    padding-bottom: 34px;
+}
+#instagram{
+    width: 350px;
+    height: 312px;
+    background-color: #F1F8FF;
+    position: relative;
+    padding: 0px 0 0 30px;
+}
+#instagram h3::after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: 260px;
+    background-color: #fc5b62;
+    width: 56px;
+    height: 3px;
+}
+#instagram h3{
+    padding: 10px 20px 10px 0px;
+
+}
+#instagram img{
+    width: 87px;
+    height: 87px;
+}
+#instagram a{
+    margin: 5px;
+}
