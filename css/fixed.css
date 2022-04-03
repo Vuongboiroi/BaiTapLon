@@ -18,7 +18,7 @@
     left: 0;
     cursor: pointer;
     transition: 0.5s;
-    
+    z-index: 10;
 }
 /* .fixed *{
     pointer-events: none;
@@ -54,6 +54,7 @@
     align-items:center;
     justify-content:center;
     border-radius: 4px;
+    z-index: 10;
 }
 .pull-up a{
     color: #ffffff;
