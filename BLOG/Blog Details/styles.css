@@ -1,3 +1,18 @@
+
+#head{
+    background-image: url(/img/head2.jpg);
+    height: 380px;
+}
+#bgr{
+    background: rgba(0, 0, 0, 0.5);
+    height: 380px;
+}
+#bgr h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+}
 #container{
     display: flex;
     padding: 80px 160px 80px 160px;
@@ -7,6 +22,10 @@
     padding: 0 15px 0 15px;
     width: 760px;
     height: 1762px;
+}
+.media img{
+    width: 80px;
+    height: 80px;
 }
 #right{
     padding: 0 15px 0 15px;
@@ -19,12 +38,39 @@
 }
 #icon{
     display: flex;
-
+}
+#icon2{
+    display: flex;
 }
 .blog-text{
     padding: 20px 30px 30px 30px;
     background-color: rgb(255, 255, 255);
     margin: 10px 0 20px 0;
+}
+.headicon{
+    margin-right: 20px;
+}
+.blog-text i{
+    font-size: 15px;
+    color: #fc5b62;
+}
+.media{
+    margin-top: 20px;
+}
+#leave-cmt{
+    padding-top: 50px;
+}
+label{
+    margin: 20px 0;
+}
+#submitButton{
+    margin-top: 50px;
+    background-color: #fc5b62;
+    color: rgb(255, 255, 255);
+}
+#submitButton:hover{
+    border: 1px solid #211E3B!important;
+    color: #fff;
 }
 #right{
     width: 380px;
@@ -61,6 +107,7 @@ li{
 #categories li:hover {
     background-color: #fc5b62;
     color: #ffffff;
+    cursor: pointer;
 }
 #categories{
     background-color: #F1F8FF;
@@ -70,13 +117,16 @@ li{
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 370px;
+    bottom: 330px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
 }
 #categories h3{
     padding: 30px 30px 0 30px;
+}
+#categories i{
+    font-size: 15px;
 }
 .post-date{
     width: 1000px;
@@ -99,6 +149,13 @@ li{
     padding-bottom: 8px;
     padding-top: 30px;
 }
+.post-date a{
+    text-decoration: none !important;
+    color: #000;
+}
+.post-date a:hover{
+    color: #fc5b62;
+}
 #tags{
     width: 350px;
     height: 261px;
@@ -108,10 +165,13 @@ li{
     margin-bottom: 30px;
 }
 #tags a {
+    display: inline-block;
     padding: 2px 13px;
     margin-right: 10px;
     margin-bottom: 12px ;
     background-color:#fff;
+    text-decoration: none !important;
+    color: #000;
 }
 #tags a:hover {
     color: #fff;
@@ -122,7 +182,7 @@ li{
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 210px;
+    bottom: 190px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
@@ -130,6 +190,7 @@ li{
 #tags h3{
     margin: 30px 30px 12px 1px;
     padding-bottom: 34px;
+    padding-top: 20px;
 }
 #instagram{
     width: 350px;
@@ -152,9 +213,11 @@ li{
 
 }
 #instagram img{
+    margin-bottom: 15px;
     width: 87px;
     height: 87px;
 }
 #instagram a{
     margin: 5px;
 }
+

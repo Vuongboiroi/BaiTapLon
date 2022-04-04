@@ -13,39 +13,87 @@
 </head>
 
 <body>
+    <div id="head">
+        <div id="bgr">
+            <h2>Blog Details</h2>
+        </div>
+    </div>
     <div id="container">
         <div id="left">
             <div class="img">
-                <img src="/BaiTapLon/img/Blog1.jpg" alt="">
+                <img src="/img/Blog1.jpg" alt="">
             </div>
             <div class="blog-text">
                 <div id="icon">
-                    <div><i class="material-icons">&#xe8ae;</i> 18 May 2020</div>
-                    <div><i class="material-icons">&#xe8af;</i> 0 Comments</div>
-
+                    <div class="headicon"><i class="material-icons">&#xe8ae;</i> 18 May 2020</div>
+                    <div class="headicon"><i class="material-icons">&#xe8af;</i> 0 Comments</div>
+                    <div class="headicon"><i class="material-icons">&#xe41d;</i> General</div>
                 </div>
                 <div>
                     <h3>Brown Pendant Lamp Hanging on Trees</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et quam sollicitudin mi tincidunt faucibus ut vitae turpis. Maecenas congue</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu metus tempus, interdum diam sed, convallis sapien. Ut sodales gravida finibus. Quisque ornare at ipsum id posuere. Integer ac egestas tortor. Quisque non est nec elit fringilla aliquet. Mauris auctor bibendum placerat. Nulla facilisi. Donec in auctor elit, non interdum sapien. Aenean malesuada nibh ut tincidunt egestas. Cras at condimentum lorem.</p>
-                    <p>Suspendisse pharetra velit risus, nec mattis justo egestas id. Proin vel dapibus massa, quis fermentum mi. Praesent faucibus porttitor ligula, dictum consequat erat gravida eu. Phasellus diam elit, eleifend at magna eu, dignissim fermentum sem. Maecenas ut posuere risus.</p>
-                    <p>Phasellus eu imperdiet mi. Nunc sagittis magna aliquam mi luctus, non convallis justo lacinia. In hac habitasse platea dictumst. Proin et euismod leo. Mauris hendrerit semper pretium.</p>
-                </div>
-            </div>
-            <div class="img">
-                <img src="/BaiTapLon/img/Blog2.jpg" alt="">
-            </div>
-            <div class="blog-text">
-                <div id="icon">
-                    <div><i class="material-icons">&#xe8ae;</i> 18 May 2020</div>
-                    <div><i class="material-icons">&#xe8af;</i> 0 Comments</div>
-
-                </div>
-                <div>
-                    <h3>Golden Gate Bridge, San Francisco</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et quam sollicitudin mi
-                        tincidunt faucibus ut vitae turpis. Maecenas congue Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Proin eu […]</p>
+                        tincidunt faucibus ut vitae turpis. Maecenas congue</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu metus tempus, interdum diam
+                        sed, convallis sapien. Ut sodales gravida finibus. Quisque ornare at ipsum id posuere. Integer
+                        ac egestas tortor. Quisque non est nec elit fringilla aliquet. Mauris auctor bibendum placerat.
+                        Nulla facilisi. Donec in auctor elit, non interdum sapien. Aenean malesuada nibh ut tincidunt
+                        egestas. Cras at condimentum lorem.</p>
+                    <p>Suspendisse pharetra velit risus, nec mattis justo egestas id. Proin vel dapibus massa, quis
+                        fermentum mi. Praesent faucibus porttitor ligula, dictum consequat erat gravida eu. Phasellus
+                        diam elit, eleifend at magna eu, dignissim fermentum sem. Maecenas ut posuere risus.</p>
+                    <p>Phasellus eu imperdiet mi. Nunc sagittis magna aliquam mi luctus, non convallis justo lacinia. In
+                        hac habitasse platea dictumst. Proin et euismod leo. Mauris hendrerit semper pretium.</p>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="media">
+                            <img class="mr-3" alt="Bootstrap Media Preview" src="/img/cmt1.png" />
+                            <div class="media-body">
+                                <h5 class="mt-0">
+                                    DuongTruongPhong
+                                </h5> Phasellus eu imperdiet mi. Nunc sagittis magna aliquam mi luctus, non convallis justo lacinia. In hac habitasse platea dictumst. Proin et euismod leo
+                                
+                            </div>
+                        </div>
+                        <div class="media">
+                            <img class="mr-3" alt="Bootstrap Media Preview" src="/img/cmt1.png" />
+                            <div class="media-body">
+                                <h5 class="mt-0">
+                                    DODUCMINH
+                                </h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu metus tempus, interdum
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="leave-cmt">
+                <h2>Leave a Comment</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Name *</label>
+                        <input type="text" name="name" class="form-control"/>
+                    </div>	
+                    
+                    <div class="col-md-6">
+                        <label>Email *</label>
+                        <input type="email" name="email" class="form-control"/>
+                    </div>	
+
+                    <div class="col-md-12">
+                        <label>Website</label>
+                        <input type="url" name="website" class="form-control"/>
+                    </div>	
+
+                    <div class="col-md-12">
+                        <label>Message</label>
+                        <textarea name="comment" class="form-control"></textarea>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <button type="submit" id="submitButton" class="btn btn-lg btn-contact-bg">Comment</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,21 +136,28 @@
                 <h3>Recent Post</h3>
                 <ul>
                     <li>
-                        <div class="post-date">April 04, 2019<h6><a href="">How to Improve you Digital Marketing selling Campaign</a></h6></div>
-                        
+                        <div class="post-date">April 04, 2019<h6><a href="">How to Improve you Digital Marketing selling
+                                    Campaign</a></h6>
+                        </div>
+
 
                     </li>
                     <li>
-                        <div class="post-date">March 25, 2019<h6><a href="">10 Business Strategy need to know for Digital Marketing</a></h6></div>
-                        
+                        <div class="post-date">March 25, 2019<h6><a href="">10 Business Strategy need to know for
+                                    Digital Marketing</a></h6>
+                        </div>
+
                     </li>
                     <li>
-                        <div class="post-date">March 05, 2019<h6><a href="">10 Best way to Present your Work</a></h6></div>
-                        
+                        <div class="post-date">March 05, 2019<h6><a href="">10 Best way to Present your Work</a></h6>
+                        </div>
+
                     </li>
                     <li>
-                        <div class="post-date">February 21, 2019<h6><a href="">HHow to Improve you Digital Marketing selling Campaign</a></h6></div>
-                        
+                        <div class="post-date">February 21, 2019<h6><a href="">HHow to Improve you Digital Marketing
+                                    selling Campaign</a></h6>
+                        </div>
+
                     </li>
                 </ul>
             </div>
