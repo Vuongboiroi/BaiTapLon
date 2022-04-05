@@ -1,3 +1,18 @@
+
+#head{
+    background-image: url(../../img/head2.jpg);
+    height: 380px;
+}
+#bgr{
+    background: rgba(0, 0, 0, 0.5);
+    height: 380px;
+}
+#bgr h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+}
 #container{
     display: flex;
     padding: 80px 160px 80px 160px;
@@ -25,6 +40,26 @@
     padding: 20px 30px 30px 30px;
     background-color: rgb(255, 255, 255);
     margin: 10px 0 20px 0;
+}
+.button{
+    display: inline-block;
+    padding: 13px 30px;
+    background-color: #fc5b62;
+    border-radius: 5%;
+    color: #000;
+    margin: 20px 0 10px 0px;
+}
+.button:hover{
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+}
+#pagination {
+    text-align: center; 
+    margin-top: 100px;
+}
+#pagination a{
+    margin: 0 20px;
 }
 #right{
     width: 380px;
@@ -61,6 +96,7 @@ li{
 #categories li:hover {
     background-color: #fc5b62;
     color: #ffffff;
+    cursor: pointer;
 }
 #categories{
     background-color: #F1F8FF;
@@ -70,7 +106,7 @@ li{
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 370px;
+    bottom: 330px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
@@ -78,8 +114,18 @@ li{
 #categories h3{
     padding: 30px 30px 0 30px;
 }
+#categories i{
+    font-size: 15px;
+}
 .post-date{
     width: 1000px;
+}
+.post-date a{
+    text-decoration: none !important;
+    color: #000;
+}
+.post-date a:hover{
+    color: #fc5b62;
 }
 #recent-post{
     background-color: #F1F8FF;
@@ -90,7 +136,7 @@ li{
     position: absolute;
     left: 30px;
     bottom: 410px;
-    background-color: #fc5b62;
+    background-color: hsl(357, 96%, 67%);
     width: 56px;
     height: 3px;
 }
@@ -108,10 +154,13 @@ li{
     margin-bottom: 30px;
 }
 #tags a {
+    display: inline-block;
     padding: 2px 13px;
     margin-right: 10px;
     margin-bottom: 12px ;
     background-color:#fff;
+    text-decoration: none !important;
+    color: #000;
 }
 #tags a:hover {
     color: #fff;
@@ -122,7 +171,7 @@ li{
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 210px;
+    bottom: 190px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
@@ -130,6 +179,7 @@ li{
 #tags h3{
     margin: 30px 30px 12px 1px;
     padding-bottom: 34px;
+    padding-top: 20px;
 }
 #instagram{
     width: 350px;
@@ -152,9 +202,14 @@ li{
 
 }
 #instagram img{
+    margin-bottom: 15px;
     width: 87px;
     height: 87px;
 }
 #instagram a{
     margin: 5px;
+}
+#pagination i{
+
+    padding-top: 100px;
 }

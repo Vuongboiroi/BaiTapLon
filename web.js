@@ -2,6 +2,7 @@
 const menuToggle=document.querySelector(".menu-toggle")
 const menuIcon=document.querySelector(".menu-toggle i")
 const menu=document.querySelector(".menu")
+const headerBgr=document.querySelector(".header-bgr")
 menuToggle.addEventListener("click",function(){
     menu.classList.toggle("is-show")
     menuIcon.classList.toggle("icofont-close")
@@ -114,3 +115,16 @@ function displayLightImage(lightImage, index) {
     lightImage.setAttribute("src", newSrc);
 }
 
+//scroll
+window.addEventListener("scroll",handleScroll)
+function handleScroll(){
+    const heigh=window.pageYOffset
+    if(heigh>=200){
+        pullUpColor.classList.add("active")
+        headerBgr.style.backgroundColor="#211e3b"
+    }
+    else{
+        pullUpColor.classList.remove("active")
+        headerBgr.style.background="transparent"
+    }
+}

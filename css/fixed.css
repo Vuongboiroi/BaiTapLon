@@ -54,10 +54,15 @@
     align-items:center;
     justify-content:center;
     border-radius: 4px;
+    opacity: 0;
+    transition: 0.25s;
+}
+.active{
+    opacity: 1;
 }
 .pull-up a{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
 }
 .toggle{
     transform: translateX(220px);

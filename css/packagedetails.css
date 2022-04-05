@@ -1,0 +1,372 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid{
+    width: 75%;
+}
+.container-fluid img {
+    width: 150px;
+    height: 60px;
+}
+.bi-justify {
+    margin-left: 7px;
+    color: #fff;
+    font-size: 27px;   
+}
+.me-auto {
+    margin-left: auto !important;
+    margin-right: 0!important;
+}
+.bg-light {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    background-color: #211E3B !important;
+    z-index: 3;
+}
+.nav-link {
+    color: #fff !important;
+    font-weight: 600;
+}
+.nav-link ul li a:hover {
+    color: #fc5b62 !important;
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../img/8m.jpg);  
+    background-size:cover; 
+    background-position: center center;
+}
+#slider .text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.icon1 {
+    margin-bottom: 0;
+    padding-left: 0;
+    color: red;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.container1 {
+    margin-top: 100px;
+    padding: 0 15px;
+    margin-left: 160px
+}
+.container1 h4 {
+    color: #fff;
+}
+.container-vb {
+    margin-bottom: 37px;
+    font-size: 23px;
+}
+.bi {
+    margin-right: 7px;
+}
+.container-vb1 {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    float: unset;
+}
+.book_now {
+    background-color: #ff0000b0;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin-left: 42px;
+}
+#contact-form {
+    width: 100%;
+    margin-top: 27px;
+}
+.form-group {
+    margin-bottom: 29px;
+}
+.actions {
+    width: 100%;
+}
+.book_now_btn {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 450;
+}
+.book_now_btn:hover {
+    color: #fff;
+    background-color: #ff000007;
+    opacity: 0.8;
+}
+.form-control {
+    width: 100%;
+    padding: 0.375rem 0.6rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.map {
+    margin-top: 35px;
+}
+.Sites {
+    width: 100%;
+    height: auto;
+    
+}
+
+.Sites-co {
+    padding-bottom: 90px;
+}
+.card-q{
+    border: 1px solid rgba(0,0,0,0);
+}
+.Sites-con {
+    margin-top: 30px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    margin-left: 8px;
+    background-color: #fc5b62;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+.sites-h44 {
+    color: #000;
+    padding: 21px 32px 10px;
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+.icon-om {
+    color: orange;
+    font-size: 11px;
+}
+.s-b {
+    margin-right: 0;
+}
+.icon1 {
+    color: #fff;
+    background-color: #fc5b62;
+    padding: 5px 5px 5px 9px;
+    margin-left: 32px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 13.5px;
+    font-weight: 700;
+}
+.card-body {
+    padding: 0 32px 16px;
+}
+.p-te {
+    opacity: 0.6;
+}
+.Sites-ro{
+    margin-right: 130px;
+}
+.sites-h2 {
+    margin: 100px 0 20px;
+    text-align: center;
+}
+.sites-h2 span {
+    color: #fc5b62;
+    font-weight: 650;
+}
+.sites-h2 h2 {
+    margin-top: 18px;
+    font-weight: 650;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    padding: 90px 0 40px;
+    background-color: #211E3B;
+    color: #fff;
+    margin-top: 100px;
+}
+.footer-container {
+    height: auto;
+    margin-top: 0;
+}
+.footer-top {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 30px;
+}
+.foot-logo {
+    margin-bottom: 10px;
+}
+.copyright_text {
+    color: #fff;
+    margin-bottom: 0;
+}
+.fot-title {
+    font-size: 22px;
+}
+.fot-title .footer {
+    position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+}
+.foot-img {
+    width: 120px;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 2px 2px;
+    padding: 14px 0 0;
+}
+.footer .footer-top ul li {
+    padding-left: 14px;
+}
+
+.footer ul li {
+    line-height: 32px;
+    position: relative;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer a:hover {
+    color: rgba(255, 0, 0, 0.486);
+}
+.foot_social_link li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer .footer-top ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 7px;
+    height: 2px;
+    background-color: #fff;
+    top: 15px;
+    transition: .5s;
+}
+.footer .fot-title::before {
+    content: '';
+    position: absolute;
+    margin-top: 32px;
+    background-color: #fc5b62;
+    width: 60px;
+    height: 1px;
+}
+@media (max-width: 768px) {
+    .media-ma {
+        position: relative;
+    }
+    .media-co {
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .media-ro {
+        position: relative;
+    }
+    .m-vv {
+        position: absolute;
+    }
+    .media-vv {
+        width: 100%;
+       
+    }
+    .media-book {
+        margin-left: 0;
+    }
+    .media-map {
+        position:relative;
+    }
+    .media-fu {
+        position:relative;
+    }
+    .media-foot {
+        margin-bottom: 24px;
+    }
+    .media-foot1 {
+        margin-bottom: 15px;
+    }
+    .footer-r {
+        margin: 0;
+    }
+    .container1 {
+        margin: 100px 0;
+    }
+    .Sites-ro {
+        width: 100%;
+    }
+    .Sites-con {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .media-ma {
+        position: relative;
+    }
+    .media-co {
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .media-ro {
+        position: relative;
+    }
+    .m-vv {
+        position: absolute;
+    }
+    .media-vv {
+        width: 100%;
+       
+    }
+    .media-book {
+        margin-left: 0;
+    }
+    .media-map {
+        position:relative;
+    }
+    .media-fu {
+        position:relative;
+    }
+    .media-foot {
+        margin-bottom: 24px;
+    }
+    .media-foot1 {
+        margin-bottom: 15px;
+    }
+    .footer-r {
+        margin: 0;
+    }
+    .container1 {
+        margin: 100px 0 0 39px;
+        padding-bottom: 35px;
+    }
+    .Sites-ro {
+        width: 100%;
+    }
+    .Sites-con {
+        margin-top: 30px;
+    }
+}
