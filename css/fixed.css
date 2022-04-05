@@ -54,15 +54,12 @@
     align-items:center;
     justify-content:center;
     border-radius: 4px;
-<<<<<<< HEAD
     opacity: 0;
     transition: 0.25s;
 }
 .active{
     opacity: 1;
-=======
-    z-index: 10;
->>>>>>> d52975273e307e6f01ea3d70c84bb924744ad90e
+
 }
 .pull-up a{
     color: #ffffff;

@@ -109,7 +109,7 @@ button {
 .menu-item{
     position: relative;
 }
-.menu-item:hover  .menu-small{
+.menu-item:hover .menu-small{
     display: block;
 }
 .menu-small{

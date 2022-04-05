@@ -1,10 +1,8 @@
 
 #head{
-<<<<<<< HEAD
+
     background-image: url(../../img/head2.jpg);
-=======
-    background-image: url(/img/head2.jpg);
->>>>>>> d52975273e307e6f01ea3d70c84bb924744ad90e
+
     height: 380px;
 }
 #bgr{
