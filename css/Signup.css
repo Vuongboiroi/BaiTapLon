@@ -1,0 +1,226 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col {
+    width: 50%;
+}
+.col4 {
+    width: 40%;
+
+}
+.col6 {
+    width: 60%;
+}
+#section {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/* .modal-r img {
+    height: auto;
+    width: 500px;
+} */
+
+li {
+    list-style-type: none;
+}
+.modal-r{
+    float: right;
+    text-align: center;
+    margin-right: -4px;
+    background-image: url(../img/60m.jpg);
+    height: 500px;
+    margin-top: -10px;
+    background-position: center;
+}
+.modal-r img{
+    width: 50%;
+}
+.modal-img {
+    background: red;
+  
+}
+.modal-f {
+    
+}
+.modal.open {
+    display: flex;
+}
+.modal-to{
+    width: 100%;
+    height: 500px;
+    padding: 10px 5px;
+    background-color: #50273073;
+}
+.modal {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-container {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 500px;
+    max-width: calc(100% - 25px);
+    min-height: 200px;
+    position: relative;
+    animation: modalFadein ease .4s;
+}
+.modal-header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal li{
+    margin-left: 16px;
+}
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.modal-close:hover {
+    opacity: 1;
+}
+
+.modal-body {
+    padding: 16px 6px 0 6px;
+
+}
+.modal-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 37px;
+    color: #e50b0bad;
+    float: left;
+    margin-top: 12px;
+    margin-right: 2px;
+}
+.modal-input{
+    border: 1px solid #cccccc36;
+    width: 72%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 24px;
+    background: #50273000;
+    float: right;
+}
+#buy-tickits {
+    background: #5027301f;
+    width: 45%;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 18px;
+    cursor: pointer;
+    border: solid;
+    border-color: #cccccc36;
+}
+.buy-tick {
+    margin-right: 35px;
+}
+.buy-dkh {
+    text-decoration: none;
+    color: #fff;
+}
+#buy-tickits:hover {
+    background-color: rgba(10, 10, 150, 0.437);
+    color: black;
+}
+.modal-footer {
+    padding: 16px;
+    text-align: right;
+}
+.modal-footer a{
+    color: #ccc;
+}
+.modal-help {
+    margin-left: 131px;
+    height: auto;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.modal-li {
+    float: left;
+}
+.modal-li:hover,
+.modal-help li a:hover {
+    opacity: 0.5;
+}
+
+@keyframes modalFadein {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 767px) {
+    #buy-tickits{
+        width: 44%;
+    }
+    .modal-container{
+        height: 697px;
+    }
+    .modal-to {
+        height: 697px;
+    }
+    .modal-r {
+        width: 100%;
+        margin-top: 0;
+        height: 183px;
+    }
+    .modal-input{
+        width: 65%;
+    }
+    .modal-help {
+        margin-left: 85px;
+    }
+    .col6 {
+
+    }
+    .col4 {
+
+    }
+    .modal-f {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #section{
+        background-repeat:repeat-y;
+    }
+    .modal-container {
+        margin-top: 290px;
+    }
+}

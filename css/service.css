@@ -2,7 +2,10 @@
     /* width: 1476px; */
     /* height: 556px; */
     background-color: rgb(241, 241, 241);
-
+    
+}
+.nav-display {
+    display: block !important;
 }
 .nav-box{
     width: 255px;
