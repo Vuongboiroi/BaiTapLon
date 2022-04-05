@@ -184,3 +184,28 @@ li {
         transform: translateY(0);
     }
 }
+@media (max-width: 740px) {
+    
+    .modal-container{
+        margin-top: 8px;
+        height: 778px;
+    }
+    .modal-to {
+        height: 778px;
+    }
+    .modal-r {
+        width: 100%;
+        margin-top: 0;
+    }
+    .modal-f {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #section{
+        background-repeat:repeat-y;
+    }
+    .modal-container {
+        margin-top: 220px;
+    }
+}

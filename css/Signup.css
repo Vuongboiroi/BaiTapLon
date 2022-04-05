@@ -10,6 +10,13 @@ html {
 .col {
     width: 50%;
 }
+.col4 {
+    width: 40%;
+
+}
+.col6 {
+    width: 60%;
+}
 #section {
     width: 100%;
     height: auto;
@@ -176,5 +183,44 @@ li {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+@media (max-width: 767px) {
+    #buy-tickits{
+        width: 44%;
+    }
+    .modal-container{
+        height: 697px;
+    }
+    .modal-to {
+        height: 697px;
+    }
+    .modal-r {
+        width: 100%;
+        margin-top: 0;
+        height: 183px;
+    }
+    .modal-input{
+        width: 65%;
+    }
+    .modal-help {
+        margin-left: 85px;
+    }
+    .col6 {
+
+    }
+    .col4 {
+
+    }
+    .modal-f {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #section{
+        background-repeat:repeat-y;
+    }
+    .modal-container {
+        margin-top: 290px;
     }
 }
