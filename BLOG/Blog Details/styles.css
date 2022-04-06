@@ -19,11 +19,13 @@
     display: flex;
     padding: 80px 160px 80px 160px;
     background-color: rgb(250, 250, 250);
+    width: 100%;
 }
 #left{
     padding: 0 15px 0 15px;
     width: 760px;
     height: 1762px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .media img{
     width: 80px;
@@ -49,6 +51,9 @@
     background-color: rgb(255, 255, 255);
     margin: 10px 0 20px 0;
 }
+.blog-text h3{
+    font-size: 24px;
+}
 .headicon{
     margin-right: 20px;
 }
@@ -66,8 +71,8 @@ label{
     margin: 20px 0;
 }
 #submitButton{
-    margin-top: 50px;
-    background-color: #fc5b62;
+    margin-top: 100px;
+    background-color: #fc5b62 !important;
     color: rgb(255, 255, 255);
 }
 #submitButton:hover{
@@ -77,6 +82,7 @@ label{
 #right{
     width: 380px;
     height: 1762px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #search{
     background-color:#F1F8FF ;
@@ -100,7 +106,7 @@ ul{
     list-style-type: none;
     padding: 14px 0px 14px 0px;
 }
-li{
+#categories li{
     display: flex;
     justify-content: space-between;
     padding: 14px 30px 14px 30px;
@@ -114,18 +120,19 @@ li{
 #categories{
     background-color: #F1F8FF;
     position: relative;
+    font: 16px;
 }
 #categories h3::after {
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 330px;
+    top: 80px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
 }
 #categories h3{
-    padding: 30px 30px 0 30px;
+    padding: 30px 30px 20px 30px;
 }
 #categories i{
     font-size: 15px;
@@ -137,11 +144,17 @@ li{
     background-color: #F1F8FF;
     position: relative;
 }
+#recent-post li{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 30px 14px 30px;
+    border-bottom: 1px solid #ddd;
+}
 #recent-post h3::after {
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 410px;
+    top: 80px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
@@ -151,6 +164,9 @@ li{
     padding-bottom: 8px;
     padding-top: 30px;
 }
+#recent-post h6{
+    font-weight: bold
+}
 .post-date a{
     text-decoration: none !important;
     color: #000;
@@ -159,8 +175,6 @@ li{
     color: #fc5b62;
 }
 #tags{
-    width: 350px;
-    height: 261px;
     background-color: #F1F8FF;
     padding: 0 30px 30px 30px;
     position: relative;
@@ -184,7 +198,7 @@ li{
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 190px;
+    top: 70px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
@@ -195,8 +209,6 @@ li{
     padding-top: 20px;
 }
 #instagram{
-    width: 350px;
-    height: 312px;
     background-color: #F1F8FF;
     position: relative;
     padding: 0px 0 0 30px;
@@ -205,13 +217,13 @@ li{
     content: '';
     position: absolute;
     left: 30px;
-    bottom: 260px;
+    top: 60px;
     background-color: #fc5b62;
     width: 56px;
     height: 3px;
 }
 #instagram h3{
-    padding: 10px 20px 10px 0px;
+    padding: 10px 20px 20px 0px;
 
 }
 #instagram img{
@@ -221,5 +233,27 @@ li{
 }
 #instagram a{
     margin: 5px;
+}
+@media (max-width: 990px) {
+    #container{
+        display:block;
+        padding: 80px 80px 80px 80px;
+        width: 100%;
+    }
+    #left{
+        padding: 0 15px 30px 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+    #right{
+        padding: 0 60px 0 60px;
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
