@@ -116,7 +116,7 @@ button {
     position: absolute;
     background-color: #ffffff;
     left: 0;
-    top: 30px;
+    top: 25px;
     display: none;
     width: 180px;
     border-radius: 5px;
@@ -132,7 +132,6 @@ button {
 }
 .menu-small a:hover{
     color: #fc5c65;
-    
 }
 
 .menu-toggle {
