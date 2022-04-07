@@ -80,7 +80,7 @@ main {
 
 .menu {
   padding: 2rem 0;
-  background: #dc35454a;
+  background: #e7bdbd4a;
   height: 100%;
 }
 .title {
@@ -110,7 +110,7 @@ main {
 }
 .photo {
   object-fit: cover;
-  height: 200px;
+  height: 200px !important;
 }
 .item-info header {
   display: flex;
