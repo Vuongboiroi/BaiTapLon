@@ -1,6 +1,6 @@
 .testimonial-hhh{
-    margin-left: 357px;
-    margin-right: 299px;
+    margin-left: 357px !important;
+    margin-right: 299px !important;
 }
 
 .testimonial {
@@ -36,19 +36,19 @@
     text-transform: capitalize;
 }
 .center-c {
-    width: 318px;
+    width: 318px !important;
     text-align: center;
 }
 .background-gh {
-    background-color: #f12f45;
+    background-color: #f12f45 !important;
 }
 .div-p {
     color: #fff;
 }
 .imgc {
-    width: 80px;
-    height: 80px; 
-    border-radius: 50%;
+    width: 80px !important;
+    height: 80px !important; 
+    border-radius: 50% !important;
 }
 .icon-om {
     margin: 0;
