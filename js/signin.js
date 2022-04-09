@@ -17,11 +17,11 @@ eye.forEach((item)=>item.addEventListener("click",function(e){
 const values=[
     {
         acc:"duongtrphong",
-        pass:"12112002"
+        pass:"vuongditnhau"
     },
     {
         acc:"duongphong",
-        pass:"12345"
+        pass:"vuongditnhau"
     }
 ]
 
@@ -34,7 +34,7 @@ link.addEventListener("click",function(e){
         const accMange=item.acc
         const passMange=item.pass
         if(acc===accMange&&pass===passMange){
-            e.target.setAttribute("href","web.html")
+            e.target.setAttribute("href","admim/admim.html")
         }
         // else{
         //         alert("tài khoản không tồn tại rồi Hào Ngân")
