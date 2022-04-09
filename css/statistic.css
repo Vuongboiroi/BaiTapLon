@@ -64,3 +64,11 @@
         margin:  0px 80px 50px 80px; 
     }
 }
+@media (min-width:780px) and (max-width: 1250px) {
+    .packter{
+        display: none;
+    }
+    .packges{
+        padding: 0;
+    }
+}

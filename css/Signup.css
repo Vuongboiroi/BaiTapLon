@@ -122,6 +122,19 @@ li {
     float: left;
     margin-top: 12px;
     margin-right: 2px;
+    position: relative;
+}
+.eye,.eye-close{
+    position: absolute;
+    left: 490px;
+    color: #fff;
+    top: 5px;
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.active{
+    display: block;
 }
 .modal-input{
     border: 1px solid #cccccc36;
@@ -131,6 +144,7 @@ li {
     margin-bottom: 24px;
     background: #50273000;
     float: right;
+    
 }
 #buy-tickits {
     background: #5027301f;

@@ -7,6 +7,11 @@ html {
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
 .col {
     width: 50%;
 }
@@ -131,6 +136,19 @@ li {
     font-size: 15px;
     margin-bottom: 12px;
     color: #e50b0bad;
+    position: relative;
+}
+.eye,.eye-close{
+    position: absolute;
+    left: 400px;
+    color: #fff;
+    top: 42px;
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.active{
+    display: block;
 }
 .modal-input{
     border: 1px solid #cccccc36;
