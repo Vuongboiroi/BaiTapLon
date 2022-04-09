@@ -17,11 +17,11 @@ eye.forEach((item)=>item.addEventListener("click",function(e){
 const values=[
     {
         acc:"duongtrphong",
-        pass:"vuongditnhau"
+        pass:"12345"
     },
     {
         acc:"duongphong",
-        pass:"vuongditnhau"
+        pass:"12345"
     }
 ]
 
