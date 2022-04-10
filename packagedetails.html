@@ -20,7 +20,7 @@
                     <img src="./img/9m.png" alt="" class="header-logo" />
                     <ul class="menu">
                         <li class="menu-item">
-                            <a href="#" id="a1" class="menu-link">HOME </a>
+                            <a href="./web.html" id="a1" class="menu-link">HOME </a>
                         </li>
                         <li class="menu-item">
                             <a href="#" class="menu-link">SERVICE </a>
@@ -419,6 +419,33 @@
         </div>
     </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="web.js"></script>
+  <script>
+    const headerBgr=document.querySelector(".header-bgr")
+    window.addEventListener("scroll",handleScroll)
+    function handleScroll(){
+        const heigh=window.pageYOffset
+        if(heigh>=200){
+            headerBgr.style.backgroundColor="#211e3b"
+        }
+        else{
+            headerBgr.style.background="transparent"
+        }
+    }
+    const menuToggle=document.querySelector(".menu-toggle")
+    const menuIcon=document.querySelector(".menu-toggle i")
+    const menu=document.querySelector(".menu")
+    menuToggle.addEventListener("click",function(){
+        menu.classList.toggle("is-show")
+        menuIcon.classList.toggle("icofont-close")
+        menuIcon.classList.toggle("icofont-navigation-menu")
+    })
+    document.addEventListener("click",function(e) {
+        if(!e.target.matches(".menu")&&!e.target.matches(".menu-toggle")){
+            menu.classList.remove("is-show")
+            menuIcon.classList.remove("icofont-close")
+            menuIcon.classList.add("icofont-navigation-menu")
+        }
+    })
+  </script>
   </body>
 </html>

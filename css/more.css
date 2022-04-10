@@ -239,8 +239,8 @@
 }
 @media (max-width: 768px) {
     .testimonial-hhh{
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
     }
     .center-c {
         margin-top: 5px;
@@ -259,8 +259,8 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .testimonial-hhh{
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
     }
     .contact_address {
         padding-left: 0;
