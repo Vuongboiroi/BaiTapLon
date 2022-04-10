@@ -9,19 +9,18 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin: 0 183px;
+    overflow: hidden;
 }
 .laveria-column img{
-    width: 340px;
+    max-width: 340px;
     border-radius: 4px;
 }
 .laveri-img{
-    /* width: 350px; */
-    /* height: 368px; */
     position: relative;
 }
 .toi{
     position: absolute;
-    width: 340px;
+    max-width: 340px;
     height: 98.9%;
     background-color: #161616;
     top: 0;
@@ -159,7 +158,7 @@
 .laveria-list{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0 110px;
+    /* margin: 0 110px; */
 }
 .zoom{
     left: 43%;
@@ -180,4 +179,28 @@
 .toi{
     width: 480px;
 }
+}
+@media (min-width:780px) and (max-width: 1250px) {
+    .laveria-list{
+        margin: 0;
+        transform: translateX(84px);
+    }
+    .laco-r{
+        display: none;
+    }
+}
+@media (min-width:780px) and (max-width: 880px) {
+    .laveria-list{
+        transform: translateX(84px);
+    }
+}
+@media (min-width:890px) and (max-width: 1009px) {
+    .laveria-list{
+        transform: translateX(150px);
+    }
+}
+@media (min-width:1010px) and (max-width: 1250px) {
+    .laveria-list{
+        transform: translateX(200px);
+    }
 }

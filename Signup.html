@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/Signup.css">
+    <link rel="stylesheet" href="./icofont/icofont/icofont.min.css">
 </head>
 <body>
     <section id="section" style="background-image: url(./img/90m.jpg);">
@@ -34,13 +35,19 @@
                             <label for="tickits-quantity" class="modal-label">
                                 <i class="bi bi-record-fill"></i>
                                 Nhập mật khẩu:
+                                <i class="icofont-eye eye-open eye"></i>
+                                <i class="icofont-eye-blocked eye-close eye active"></i>
                             </label>
-                            <input id="tickits-quantity" type="text" class="modal-input" placeholder=" ******">
+                            
+                            <input id="tickits-quantity" type="password" class="modal-input" placeholder=" ******">
                             <label for="tichkits-emall" class="modal-label">
                                 <i class="bi bi-record-fill"></i>
                                 Nhập lại mật khẩu:
+                                <i class="icofont-eye eye-open eye "></i>
+                                <i class="icofont-eye-blocked eye eye-close active"></i>
                             </label>
-                            <input id="tichkits-emall"  type="emall" class="modal-input" placeholder=" ******">              
+                            
+                            <input id="tichkits-emall"  type="password" class="modal-input" placeholder=" ******">              
                         </div>
                         <div class="modal-body"> 
                             <button id="buy-tickits" class="buy-tick">
@@ -76,4 +83,5 @@
         </div>
     </section>
 </body>
+<script src="./js/signup.js"></script>
 </html>

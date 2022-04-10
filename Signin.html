@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/Signin.css">
+    <link rel="stylesheet" href="./icofont/icofont/icofont.min.css">
 </head>
 <body>
     <section id="section" style="background-image: url(./img/90m.jpg);">
@@ -30,24 +31,28 @@
                         <header class="modal-header">
                             <img src="./img/9m.png" alt="">
                         </header>
-                        <div class="modal-body">
-                            <label for="tickits-quantity" class="modal-label">
-                                <i class="bi bi-record-fill"></i>
-                                Tài khoản:
-                            </label>
-                            <input id="tickits-quantity" type="text" class="modal-input" placeholder="Tài khoản">
-                        
-                            <label for="tichkits-emall" class="modal-label">
-                                <i class="bi bi-record-fill"></i>
-                                Mật khẩu:
-                            </label>
-                            <input id="tichkits-emall"  type="emall" class="modal-input" placeholder=" *****">              
-                        </div>
-                        <div class="modal-body"> 
-                            <button id="buy-tickits">
-                                Đăng nhập
-                            </button>
-                        </div>
+                        <form action="#" class="form" autocomplete="off">
+                            <div class="modal-body">
+                                <label for="tickits-quantity" class="modal-label">
+                                    <i class="bi bi-record-fill"></i>
+                                    Tài khoản:
+                                </label>
+                                <input id="tickits-quantity" name="acc"  type="text" class="modal-input" placeholder="Tài khoản">
+                                
+                                <label for="tichkits-emall" class="modal-label">
+                                    <i class="bi bi-record-fill"></i>
+                                    Mật khẩu:
+                                    <i class="icofont-eye eye-open eye"></i>
+                                    <i class="icofont-eye-blocked eye-close eye active"></i>
+                                </label>
+                                <input id="tichkits-emall" name="pass" type="password" class="modal-input" placeholder=" *****">              
+                            </div>
+                            <div class="modal-body"> 
+                                <button id="buy-tickits" type="submit">
+                                    <a href="#">Đăng nhập</a>
+                                </button>
+                            </div>
+                        </form>
                         <foote class="modal-footer">
                             <ul class="modal-help">
                                 <li class="modal-li">
@@ -66,4 +71,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
+<script src="./js/signin.js"></script>
+
 </html>

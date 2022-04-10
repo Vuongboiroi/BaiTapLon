@@ -77,3 +77,22 @@ h5{
         display: none;
     }
 }
+@media (min-width:780px) and (max-width: 1250px) {
+    .packges-main{
+        padding: 0;
+        grid-gap: 0;
+    }
+    .packages-box{
+        padding: 0;
+    }
+}
+@media (min-width:992px) and (max-width: 1140px) {
+    .packges-main{
+        transform: translateX(100px);
+    }
+}
+@media (min-width:1145px) and (max-width: 1250px) {
+    .packges-main{
+        transform: translateX(200px);
+    }
+}
