@@ -25,7 +25,8 @@ const values=[
     }
 ]
 
-
+const arrAcc=[]
+const arrPass=[]
 const link=document.querySelector(".modal-body a")
 link.addEventListener("click",function(e){
     const acc=document.getElementById("tickits-quantity").value
@@ -33,11 +34,19 @@ link.addEventListener("click",function(e){
     values.forEach((item)=>{
         const accMange=item.acc
         const passMange=item.pass
-        if(acc===accMange&&pass===passMange){
+        arrAcc.push(accMange)
+        arrPass.push(passMange)
+        const checkAcc=arrAcc.includes(acc)
+        const checkPass=arrPass.includes(pass)
+        // console.log(checkAcc)
+        // console.log(checkPass)
+        if(checkAcc===true&&checkPass===true){
             e.target.setAttribute("href","admim/admim.html")
         }
-        // else{
-        //         alert("tài khoản không tồn tại rồi Hào Ngân")
-        //     }
+        else if (acc==""&&pass=="") {
+            alert("hãy nhập tài khoản")
+        } else {
+            alert("tài khoản không tồn tại")
+        }
     })
 })

@@ -174,7 +174,7 @@
     width: 480px;
 }
 .to{
-    width: 480px;
+    max-width: 480px;
 }
 .toi{
     width: 480px;
