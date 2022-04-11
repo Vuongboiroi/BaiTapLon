@@ -118,7 +118,7 @@ li {
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 37px;
-    color: #e50b0bad;
+    color: #ffffffad;
     float: left;
     margin-top: 12px;
     margin-right: 2px;
@@ -144,6 +144,7 @@ li {
     margin-bottom: 24px;
     background: #50273000;
     float: right;
+    color: rgb(255, 255, 255);
     
 }
 #buy-tickits {
