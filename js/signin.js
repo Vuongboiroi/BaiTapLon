@@ -34,6 +34,7 @@ link.addEventListener("click",function(e){
     values.forEach((item)=>{
         const accMange=item.acc
         const passMange=item.pass
+        if(accMange==""&&passMange=="") return
         arrAcc.push(accMange)
         arrPass.push(passMange)
         const checkAcc=arrAcc.includes(acc)
@@ -42,9 +43,6 @@ link.addEventListener("click",function(e){
         // console.log(checkPass)
         if(checkAcc===true&&checkPass===true){
             e.target.setAttribute("href","admim/admim.html")
-        }
-        else if (acc==""&&pass=="") {
-            alert("hãy nhập tài khoản")
         } else {
             alert("tài khoản không tồn tại")
         }
