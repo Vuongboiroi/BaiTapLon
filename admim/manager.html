@@ -24,19 +24,19 @@
                     <li class="active">
                         <a href="./admim.html">                 
                             <i class="bi bi-list-task"></i>                 
-                            <p>Các tour du lịch</p>
+                            <p>Tours</p>
                         </a>
                     </li>                   
                     <li class="active">
                         <a href="../admim/manager.html">                  
                             <i class="bi bi-person-fill"></i>                 
-                            <p>Người quản trị</p>
+                            <p>Manager</p>
                         </a>
                     </li>                         
                     <li class="active">
                         <a href="../admim/admim.html">                  
                             <i class="bi bi-person-fill"></i>                 
-                            <p>Khách hàng</p>
+                            <p>HOME</p>
                         </a>
                     </li>                
                 </ul>
@@ -46,36 +46,26 @@
                 <div class="container">
                     <div class="import-content">
                       <div class="title">
-                        <h4>Nhập thông tin</h4>
+                        <h4>Enter information</h4>
                       </div>
                       <form class="form" action="#">
                         <div class="import-text">
                           <div class="text">
-                            <input class="form-input" id="Ten" name="Ten" placeholder=" " type="text">
-                            <label class="phaceholder">Tên</label>
+                            <input class="form-input" id="Ten" name="name" placeholder=" " type="text">
+                            <label class="phaceholder">Name</label>
                           </div>
                           <div class="text">
-                            <input class="form-input" id="Dc" name="Dc" placeholder=" " type="text">
-                            <label class="phaceholder">Địa chỉ</label>
+                            <input class="form-input" id="Dc" name="address" placeholder=" " type="text">
+                            <label class="phaceholder">Address</label>
                           </div>
                           <div class="text">
-                            <input class="form-input" id="Gia" name="Gia" placeholder=" " type="text">
-                            <label class="phaceholder">Sô điện thoại</label>
+                            <input class="form-input" id="Gia" name="number" placeholder=" " type="text">
+                            <label class="phaceholder">Phone number</label>
                           </div>
                           <div class="row">
                             <div class="col-1 le-c">
                                 <button type="submit">
-                                    <h4>Thêm thông tin</h4>
-                                  </button>
-                            </div>
-                            <div class="col-1 le-c">
-                                <button type="submit">
-                                    <h4>Sửa thông tin</h4>
-                                  </button>
-                            </div>
-                            <div class="col-1 le-c">
-                                <button type="submit">
-                                    <h4>Xóa thông tin</h4>
+                                    <h4>More information</h4>
                                   </button>
                             </div>
                           </div>
@@ -83,10 +73,16 @@
                       </form>
                     </div>
                 </div>
-                <div class="row">
-                </div>
+                <table class="table">
+                  <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Phone number</th>
+                  </tr>
+                </table>
             </div>
         </div>
     </div>
 </body>
+<script src="../js/mange.js"></script>
 </html>

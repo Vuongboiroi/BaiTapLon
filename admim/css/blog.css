@@ -120,12 +120,27 @@ main {
   margin-bottom: 0;
   padding-top: 1rem;
 }
+.menu-item{
+  position: relative;
+}
+.close{
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: aqua;
+  display: none;
+}
+.menu-item:hover .close{
+  display: block;
+}
 
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
-    max-width: 40rem;
+    width: 30rem;
   }
   .photo {
     height: 175px;
